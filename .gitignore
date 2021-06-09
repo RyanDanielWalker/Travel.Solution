@@ -3,6 +3,6 @@ obj/
 .vscode/
 .env
 .DS_Store
-# */appsettings.json
-# */appsettings.Development.json
-# launchSettings.json
+*/appsettings.json
+*/appsettings.Development.json
+launchSettings.json

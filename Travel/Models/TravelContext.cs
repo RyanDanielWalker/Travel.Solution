@@ -21,7 +21,6 @@ namespace Travel.Models
           new Review { ReviewId = 5, City = "Hong Kong", Country = "China", Description = "Great", Rating = 9 }
         );
     }
-    // public virtual DbSet<Location> Locations { get; set; }
     public DbSet<Review> Reviews { get; set; }
   }
 }
