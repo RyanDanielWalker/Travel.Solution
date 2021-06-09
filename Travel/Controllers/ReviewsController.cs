@@ -13,7 +13,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Travel.Controllers
 {
-  // [Authorize]
   [Route("api/[controller]")]
   [ApiController]
   public class ReviewsController : ControllerBase

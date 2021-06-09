@@ -8,8 +8,8 @@ using Travel.Models;
 namespace Travel.Migrations
 {
     [DbContext(typeof(TravelContext))]
-    [Migration("20210608224132_TestingApi")]
-    partial class TestingApi
+    [Migration("20210609204217_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -25,9 +25,11 @@ namespace Travel.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("City")
+                        .IsRequired()
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("Country")
+                        .IsRequired()
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("Description")
